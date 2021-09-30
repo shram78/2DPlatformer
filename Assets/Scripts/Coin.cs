@@ -1,26 +1,25 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 
 public class Coin : MonoBehaviour
 {
 
-
-    private AudioSource _audioSource;
-
-    private void Start()
-    {
-        _audioSource = GetComponent<AudioSource>();
-    }
+    public event UnityAction<Coin> CoinCollected;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-       Die();
+        if (collision.TryGetComponent(out Player player))
+        {
+            CoinCollected?.Invoke(this);
+            Die();
+        }
     }
 
     private void Die()
     {
-        _audioSource.Play();
+        Destroy(gameObject);
     }
 }

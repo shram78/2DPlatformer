@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: bdadf59226404ba4585cdb053e69db4f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3102033605257988147
+    second: AmongCrush-Sheet_0
+  - first:
+      213: -6297088912709219184
+    second: AmongCrush-Sheet_1
+  - first:
+      213: 1832120244152356263
+    second: AmongCrush-Sheet_2
+  - first:
+      213: -3978341940888173100
+    second: AmongCrush-Sheet_3
+  - first:
+      213: -1422106565782154849
+    second: AmongCrush-Sheet_4
+  - first:
+      213: -2657564597641878258
+    second: AmongCrush-Sheet_5
+  - first:
+      213: 2337557912806457768
+    second: AmongCrush-Sheet_6
+  - first:
+      213: -6971699378036956167
+    second: AmongCrush-Sheet_7
+  - first:
+      213: 6684370615997906328
+    second: AmongCrush-Sheet_8
+  - first:
+      213: -1412648735668923217
+    second: AmongCrush-Sheet_9
+  - first:
+      213: -7761506732391633558
+    second: AmongCrush-Sheet_10
+  - first:
+      213: -2085890445685656974
+    second: AmongCrush-Sheet_11
+  - first:
+      213: 4074830903723022458
+    second: AmongCrush-Sheet_12
+  - first:
+      213: 5773036725684770084
+    second: AmongCrush-Sheet_13
+  - first:
+      213: 2044449081324585059
+    second: AmongCrush-Sheet_14
+  - first:
+      213: -2299535881874792299
+    second: AmongCrush-Sheet_15
+  - first:
+      213: 5914830912727472684
+    second: AmongCrush-Sheet_16
+  - first:
+      213: 4548798158430793470
+    second: AmongCrush-Sheet_17
+  - first:
+      213: 2909158331724925069
+    second: AmongCrush-Sheet_18
+  - first:
+      213: 3833495054029620123
+    second: AmongCrush-Sheet_19
+  - first:
+      213: -4405007452549305596
+    second: AmongCrush-Sheet_20
+  - first:
+      213: -7910929255309020913
+    second: AmongCrush-Sheet_21
+  - first:
+      213: 5586120592879340772
+    second: AmongCrush-Sheet_22
+  - first:
+      213: -3254729947483456216
+    second: AmongCrush-Sheet_23
+  - first:
+      213: -5268677157109160179
+    second: AmongCrush-Sheet_24
+  - first:
+      213: -4781691234476754128
+    second: AmongCrush-Sheet_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 15
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 20
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3380ab2f023ac0b20800000000000000
+      internalID: 3102033605257988147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 20
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c8aee4ffe3c98a0800000000000000
+      internalID: -6297088912709219184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 20
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7adc082b7affc6910800000000000000
+      internalID: 1832120244152356263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 20
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d5825a35171ac8c0800000000000000
+      internalID: -3978341940888173100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 21
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91ddc1fc99a34ce0800000000000000
+      internalID: -1422106565782154849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 20
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05e6ed241f6e1bd0800000000000000
+      internalID: -2657564597641878258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 19
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a18bba698ca07020800000000000000
+      internalID: 2337557912806457768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 20
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3ab437a5c8f3f90800000000000000
+      internalID: -6971699378036956167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 20
+        width: 54
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d3d91f8a7a3cc50800000000000000
+      internalID: 6684370615997906328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 21
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa49c0e9573456ce0800000000000000
+      internalID: -1412648735668923217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 22
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d6ef5cfb6994490800000000000000
+      internalID: -7761506732391633558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 18
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2727680f0bd6d03e0800000000000000
+      internalID: -2085890445685656974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 21
+        width: 62
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78d1381e15bc8830800000000000000
+      internalID: 4074830903723022458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 23
+        width: 64
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42599bda052fd1050800000000000000
+      internalID: 5773036725684770084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 23
+        width: 71
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360c9b58b975f5c10800000000000000
+      internalID: 2044449081324585059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 23
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590a6948c486610e0800000000000000
+      internalID: -2299535881874792299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 25
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2ade938063b51250800000000000000
+      internalID: 5914830912727472684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 23
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efee73413d3902f30800000000000000
+      internalID: 4548798158430793470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 23
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8805ddd6186f5820800000000000000
+      internalID: 2909158331724925069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 14
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9307afd07f433530800000000000000
+      internalID: 3833495054029620123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 5
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ba9d58f054ed2c0800000000000000
+      internalID: -4405007452549305596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 0
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f017f0691cbb63290800000000000000
+      internalID: -7910929255309020913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 0
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec411b2513e58d40800000000000000
+      internalID: 5586120592879340772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 0
+        width: 30
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3c686b50e4d2d0800000000000000
+      internalID: -3254729947483456216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 0
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d072b4e4a06e1e6b0800000000000000
+      internalID: -5268677157109160179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AmongCrush-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 0
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03bf96f182504adb0800000000000000
+      internalID: -4781691234476754128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
