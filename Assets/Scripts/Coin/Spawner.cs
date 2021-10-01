@@ -21,9 +21,7 @@ public class Spawner : MonoBehaviour
 
     private void OnCoinCollected(Coin coin)
     {
+        _player.AddPoint(_pointForCollectCoin); 
         coin.CoinCollected -= OnCoinCollected;
-        _player.AddPoint(_pointForCollectCoin);
-        _player.CollectSound(); // вынести в класс плееаро
-
     }
 }

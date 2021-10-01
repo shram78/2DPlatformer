@@ -2,25 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-
-
 public class Player : MonoBehaviour
 {
-    [SerializeField] private AudioSource _coinSound;
-    
+    public int Points { get; private set; }
 
-    public int Point { get; private set; }
-
-    public void AddPoint(int point)
+      public void AddPoint(int points)
     {
-        Point += point;
-        Debug.Log("Cобрано очков:" + Point);
-    }
-
-    public void CollectSound()
-    {
-        _coinSound.Play();
-    }
+        Points += points;
         
- 
+        ShowPointsInDebug();
+    }
+
+    private void ShowPointsInDebug()
+    {
+        Debug.Log("Cобрано очков:" + Points);
+    }
 }
