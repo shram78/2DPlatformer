@@ -75,12 +75,13 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 7921b5c03243d43499f3ce2a2da141b5, type: 3}
+  m_Sprite: {fileID: 6661731311284580927, guid: 258edb58546dfd24bba266dcebe6fafe,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1.5789474}
+  m_Size: {x: 1, y: 1.625}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -103,8 +104,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1.5789474}
-    newSize: {x: 1, y: 1.5789474}
+    oldSize: {x: 1, y: 1.625}
+    newSize: {x: 1, y: 1.625}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -125,6 +126,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
+  _groundCheck: {fileID: 0}
+  _whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!95 &439134279134294388
 Animator:
   serializedVersion: 3
@@ -157,7 +162,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _destroySound: {fileID: -6502008031819442049}
-  _player: {fileID: 0}
 --- !u!82 &-6502008031819442049
 AudioSource:
   m_ObjectHideFlags: 0
