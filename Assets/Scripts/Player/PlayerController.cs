@@ -5,14 +5,15 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
+[RequireComponent(typeof(Player))]
 
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpForce;
     [SerializeField] private AudioSource _jumpSound;
-    [SerializeField] private Transform _groundCheck;
-    [SerializeField] private LayerMask _whatIsGround;
+    [SerializeField] private Transform _groundChecker;
+    [SerializeField] private LayerMask _groundLayer;
 
     private Animator _animator;
     private Rigidbody2D _rigidbody2D;
@@ -48,7 +49,7 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        _isGrounded = Physics2D.OverlapCircle(_groundCheck.position, 0.1f, _whatIsGround);
+        _isGrounded = Physics2D.OverlapCircle(_groundChecker.position, 0.1f, _groundLayer);
     }
 
     private void Move()

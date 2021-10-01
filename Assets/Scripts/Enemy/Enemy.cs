@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
 
 [RequireComponent(typeof(Player))]
 [RequireComponent(typeof(Animator))]
@@ -18,7 +17,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _player = GameObject.FindObjectOfType<Player>();
+        _player = FindObjectOfType<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

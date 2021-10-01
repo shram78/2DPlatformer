@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Coin))]
+
 public class Spawner : MonoBehaviour
 {
     [SerializeField] private Coin _coinPrefab;
