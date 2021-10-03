@@ -10,7 +10,6 @@ public class Enemy : MonoBehaviour
     [SerializeField] private AudioSource _destroySound;
 
     private Player _player;
-
     private Animator _animator;
     private const string _isDestroy = "isDestroy";
 
@@ -24,17 +23,15 @@ public class Enemy : MonoBehaviour
     {
         if (collision.TryGetComponent(out Player player))
         {
+            _player.AddScore();
             Die();
         }
     }
 
     private void Die()
     {
-        int _pointForDestroyEnemy = 50;
-
         _animator.SetBool(_isDestroy, true);
         _destroySound.Play();
-        _player.AddPoint(_pointForDestroyEnemy);
         Destroy(gameObject, 0.5f);
     }
 }

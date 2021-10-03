@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int Points { get; private set; }
-
-      public void AddPoint(int points)
-    {
-        Points += points;
-        
-        ShowPointsInDebug();
-    }
-
+    private int _score; 
+  
     private void ShowPointsInDebug()
     {
-        Debug.Log("Cобрано очков:" + Points);
+        Debug.Log("Cобрано очков:" + _score);
+    }
+
+    public void AddScore() 
+    {
+        _score++;
+        ShowPointsInDebug();
     }
 }

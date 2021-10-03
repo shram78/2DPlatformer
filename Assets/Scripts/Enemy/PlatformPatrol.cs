@@ -11,7 +11,6 @@ public class PlatformPatrol : MonoBehaviour
     private bool _movingRight;
     private RaycastHit2D _groundInfo;
 
-
     private void Update()
     {
         transform.Translate(Vector3.right * _speed * Time.deltaTime);
