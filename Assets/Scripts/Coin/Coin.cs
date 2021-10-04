@@ -9,12 +9,7 @@ public class Coin : MonoBehaviour
     [SerializeField] private AudioSource _coinSound;
 
     private Player _player;
-
-    private void Start()
-    {
-        _player = FindObjectOfType<Player>();
-    }
-
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent(out Player player))
@@ -28,5 +23,10 @@ public class Coin : MonoBehaviour
     {
         _coinSound.Play();
         Destroy(gameObject, 0.3f);
+    }
+
+    public void Init(Player player)
+    {
+        _player = player;
     }
 }

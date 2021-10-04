@@ -7,7 +7,7 @@ using UnityEngine;
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Player))]
 
-public class PlayerController : MonoBehaviour
+public class PlayerMoverController : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpForce;
@@ -21,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool _isGrounded;
     private const string _isRunning = "isRunning";
     private const string _isJumping = "isJumping";
+    private const string _horizontal = "Horizontal";
     private Vector3 _directionMove;
 
     private void Start()
@@ -34,7 +35,7 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetBool(_isRunning, false);
 
-        if (Input.GetButton("Horizontal"))
+        if (Input.GetButton(_horizontal))
             Move();
 
         if (_isGrounded && Input.GetKey(KeyCode.Space))
@@ -56,15 +57,11 @@ public class PlayerController : MonoBehaviour
     {
         _animator.SetBool(_isRunning, true);
 
-        _directionMove = transform.right * Input.GetAxis("Horizontal");
+        _directionMove = transform.right * Input.GetAxis(_horizontal);
 
         transform.position = Vector3.MoveTowards(transform.position, transform.position + _directionMove, _speed * Time.deltaTime);
 
-        if (_directionMove.x < 0)
-            _spriteRenderer.flipX = true;
-
-        else
-            _spriteRenderer.flipX = false;
+        _spriteRenderer.flipX = _directionMove.x < 0;
     }
 
     private void Jump()

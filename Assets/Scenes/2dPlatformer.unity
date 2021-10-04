@@ -2792,7 +2792,7 @@ GameObject:
   - component: {fileID: 1639082556}
   - component: {fileID: 1639082555}
   m_Layer: 0
-  m_Name: SpawnerCoins
+  m_Name: CoinsSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -2990,7 +2990,7 @@ GameObject:
   - component: {fileID: 2089269057}
   - component: {fileID: 2089269055}
   m_Layer: 0
-  m_Name: SpawnerEmemy
+  m_Name: EnemySpawner
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0

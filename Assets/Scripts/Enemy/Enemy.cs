@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         _animator = GetComponent<Animator>();
-        _player = FindObjectOfType<Player>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -33,5 +32,10 @@ public class Enemy : MonoBehaviour
         _animator.SetBool(_isDestroy, true);
         _destroySound.Play();
         Destroy(gameObject, 0.5f);
+    }
+
+    public void Init(Player player)
+    {
+        _player = player;
     }
 }
