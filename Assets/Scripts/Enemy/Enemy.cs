@@ -2,14 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Player))]
 [RequireComponent(typeof(Animator))]
 
 public class Enemy : MonoBehaviour
 {
     [SerializeField] private AudioSource _destroySound;
 
-    private Player _player;
     private Animator _animator;
     private const string _isDestroy = "isDestroy";
 
@@ -22,7 +20,7 @@ public class Enemy : MonoBehaviour
     {
         if (collision.TryGetComponent(out Player player))
         {
-            _player.AddScore();
+            player.AddScore();
             Die();
         }
     }
@@ -32,10 +30,5 @@ public class Enemy : MonoBehaviour
         _animator.SetBool(_isDestroy, true);
         _destroySound.Play();
         Destroy(gameObject, 0.5f);
-    }
-
-    public void Init(Player player)
-    {
-        _player = player;
     }
 }

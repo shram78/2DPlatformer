@@ -8,14 +8,12 @@ public class CoinsSpawner : MonoBehaviour
 {
     [SerializeField] private Coin _coinPrefab;
     [SerializeField] private Transform[] _spawnPoints;
-    [SerializeField] private Player _player;
 
     private void Start()
     {
         for (int i = 0; i < _spawnPoints.Length; i++)
         {
-            Coin coin = Instantiate(_coinPrefab, _spawnPoints[i]).GetComponent<Coin>();
-            coin.Init(_player);
+            Coin coin = Instantiate(_coinPrefab, _spawnPoints[i]);
         }
     }
 }
